@@ -1,0 +1,98 @@
+[legends]
+U_EXLM = !
+KC_EXLM = !
+U_QUES = ? !
+KC_QUES = ? !
+KC_GT = >
+KC_LT = <
+KC_HASH = #
+KC_PERC = %
+KC_AT = @
+KC_DLR = $
+KC_CIRC = ^
+KC_LCBR = {
+KC_LPRN = (
+KC_LBRC = [
+KC_RCBR = }
+KC_RPRN = )
+KC_RBRC = ]
+KC_PIPE = |
+KC_GRV = `
+KC_TILD = ~
+KC_PLUS = +
+KC_AMPR = &
+KC_UNDS = _
+KC_MINS = - _
+KC_EQL = =
+U_SL = / \
+KC_SLSH = / ?
+U_COMM = , <
+KC_COMM = , <
+KC_DOT = . >
+KC_ASTR = *
+KC_BSLS = \ |
+KC_BSLASH = \ |
+U_QUOT = ' "
+KC_QUOT = ' "
+KC_SCLN = : ;
+KC_PSCR = PrintSc
+KC_NLCK = NumLock
+KC_SLCK = ScrLock
+KC_INS = Ins
+_ =
+__ =
+
+KC_MS_U = MSE ↑
+KC_MS_D = MSE ↓
+KC_MS_L = MSE ←
+KC_MS_R = MSE →
+KC_WH_U = WHEEL ↑
+KC_WH_D = WHEEL ↓
+KC_WBAK = ⯬
+KC_WFWD = ⯮
+
+KC_LGUI = L⌘
+KC_RGUI = R⌘
+KC_LALT = L⎇
+KC_RALT = R⎇
+KC_LSFT = L⇧
+KC_RSFT = R⇧
+KC_LCTL = L^
+KC_RCTL = R^
+
+HOME_A = A/^
+HOME_D = D/⌘
+HOME_F = F/⇧
+HOME_J = J/⇧
+HOME_K = K/⌘
+HOME_L = L/⎇
+HOME_S = S/⎇
+HOME_SCLN = ;/^
+
+KC_LEFT = ◁
+KC_DOWN = ▽
+KC_UP = △
+KC_RIGHT = ▷
+
+CTL_ESC = ESC/⎈
+CTL_QUOT= ' "/⎈
+ALT_ENT = ⏎ /⎇
+KC_APP = MENU
+
+NAV_TAB = TAB/NAV
+MS_CAPS = CAPS/MS
+SYM_ENT = ⏎/SYM
+NAV_UND = _/NAV
+
+OS_LSFT = 1-SHOT⇧
+OS_RSFT = 1-SHOT⇧
+
+ARROW_R = -> =>
+
+UPDIR = ../
+E_GRAVE = È
+A_GRAVE = À
+O_BRACE = {⏎
+C_BRACE = }⏎
+
+TD_DOT = . >

@@ -1,0 +1,31 @@
+# This was taken and adapted from: https://github.com/itspriddle/k6-qmk/blob/master/.github/workflows/build.yml
+name: Build firmware
+
+on:
+  push:
+    branches:
+      - jakejx/miryoku
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install qmk deps
+        run: ./util/qmk_install.sh && python3 -m pip install qmk
+      - name: Install submodules
+        run: make git-submodule
+      - name: Compile firmware
+        run: make moonlander:miryoku-jakejx
+      - name: Upload compiled firmware (build artifact)
+        uses: actions/upload-artifact@v2
+        with:
+          name: Moonlander Miryoku (custom)
+          path: .build/moonlander_miryoku-jakejx.bin
+      - name: Upload compiled firmware (tagged release)
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            .build/moonlander_miryoku-jakejx.bin
+

@@ -1,4 +1,3 @@
-// copied from users/manna-harbour_miryoku/manna-harbour_miryoku.h
 // Copyright 2019 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 // generated -*- buffer-read-only: t -*-
@@ -97,5 +96,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     U_NP,    U_NP,    KC_BTN2, KC_BTN3, KC_BTN1, KC_BTN1, KC_BTN3, KC_BTN2, U_NP,    U_NP
   )
 };
-
 

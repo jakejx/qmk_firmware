@@ -96,3 +96,5 @@ O_BRACE = {⏎
 C_BRACE = }⏎
 
 TD_DOT = . >
+OSM_LSFT = LSFT
+OSM_LCTL = LCTL

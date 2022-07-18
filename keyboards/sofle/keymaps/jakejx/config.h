@@ -18,3 +18,10 @@ for more options.
 
 // Disable PERMISSIVE_HOLD
 #undef PERMISSIVE_HOLD
+
+#ifdef ENCODER_RESOLUTION
+#undef ENCODER_RESOLUTION
+#define ENCODER_RESOLUTION 4
+#endif
+
+#define SPLIT_WPM_ENABLE
